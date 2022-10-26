@@ -76,5 +76,5 @@ async def on_message(message):
     else:
         await message.delete()
 
-token = [line.rstrip() for line in open('token.txt')][0]
+token = config.DISCORD_BOT_TOKEN
 bot.run(token)
