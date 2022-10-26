@@ -1,0 +1,7 @@
+HEADERMSG_OPENER      = "Hey!\nThe moderators have asked that you answer a question in order to be granted access to the server:"
+HEADERMSG_QUESTION    = "Please provide the name of the person who gave you the invite link."
+HEADERMSG_INSTRUCTION = "Complete verification by typing `/verify` in the chat box followed by your answer."
+
+VERIFY_ALREADY_VERIFIED = "It looks like you're already verified."
+VERIFY_SUCCESS          = "Thank you for verifying. Welcome to the server! :heart:"
+VERIFY_FAILURE          = "Hm. It looks like that answer isn't in the list of automatically-accepted responses.\nThat's okay! Please message a moderator to clarify, and we will let you in manually."
