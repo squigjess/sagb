@@ -10,6 +10,7 @@ class Config:
     LOGGING_CHANNEL_ID = config_settings["LOGGING_CHANNEL_ID"]
     VERIFIED_ROLE_ID = config_settings["VERIFIED_ROLE_ID"]
     TEST_GUILD_IDS = config_settings["TEST_GUILD_IDS"]
+    VALID_ANSWERS = [a.lower() for a in config_settings["VALID_ANSWERS"]]
 conf_file.close()
 
 msgs_file = open("messages.toml", "r")

@@ -23,7 +23,6 @@ async def headermsg(interaction: nextcord.Interaction):
 async def verify(interaction: nextcord.Interaction, answer: str):
     user_reply = None
     log_reply = None
-    valid_answers = [line.rstrip().lower() for line in open('valid_answers.txt')]
 
     # Check if the user is already verified
     user_already_verified = type(interaction.user.get_role(Config.VERIFIED_ROLE_ID)) == nextcord.role.Role
@@ -31,7 +30,7 @@ async def verify(interaction: nextcord.Interaction, answer: str):
         user_reply = dialogBox("Info", "Already verified", Message.VERIFY.ALREADY_VERIFIED)
 
     # Check if the answer was valid
-    elif answer.lower() not in valid_answers:
+    elif answer.lower() not in Config.VALID_ANSWERS:
         # Let the user know that the answer was not correct.
         user_reply = dialogBox("Error", "Unrecognised answer", Message.VERIFY.FAILURE)
 
