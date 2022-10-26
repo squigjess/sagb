@@ -10,6 +10,7 @@ styles = {#Reason    Which emoji to use       The colour of the accent on the le
           "Error":   [":no_entry_sign:",      Colour.red()],
           "Debug":   [":gear:",               Colour.lighter_grey()],
           "Test":    [":red_circle:",         Colour.red()],
+          "Info":    [":information_source:", Colour.blue()],
           "Success": [":white_check_mark:",   Colour.green()]}
 
 
