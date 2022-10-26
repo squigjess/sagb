@@ -76,5 +76,5 @@ async def on_message(message):
     else:
         await message.delete()
 
-token = config.DISCORD_BOT_TOKEN
+token = Config.DISCORD_BOT_TOKEN
 bot.run(token)
