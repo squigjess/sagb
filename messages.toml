@@ -1,5 +1,5 @@
 HEADERMSG_OPENER      = "Hey!\nThe moderators have asked that you answer a question in order to be granted access to the server:"
-HEADERMSG_QUESTION    = "Please provide the name of the person who gave you the invite link."
+HEADERMSG_QUESTION    = "Please provide the IRL name of the person who gave you the invite link."
 HEADERMSG_INSTRUCTION = "Complete verification by typing `/verify` in the chat box followed by your answer."
 
 VERIFY_ALREADY_VERIFIED = "It looks like you're already verified."
